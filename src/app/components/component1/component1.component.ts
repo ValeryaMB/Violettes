@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-component1',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./component1.component.css']
 })
 export class Component1Component {
+
+  constructor(private router: Router){}
+
+  ingresar(){
+    this.router.navigate(["pag"])
+  }
 
 }
