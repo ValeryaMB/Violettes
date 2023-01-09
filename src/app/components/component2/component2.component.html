@@ -21,6 +21,13 @@
         .text{
             padding-left: 200px;
         }
+        .rowed{
+    display: flex;
+    margin: 20px;
+        }
+        .rowin{
+            display: flex;
+        }
     </style>
 </head>
 <body>
@@ -32,7 +39,7 @@
                 </div>
                 <div class="two columns u-pull-right" style="text-align: right;">
                     <ul>
-                        <li class="submenu">
+                        <li class="submenu" style="background-color: #DBD9FF;">
                             <img src="https://images.vexels.com/media/users/3/200098/isolated/preview/7ad7c76da9a0cd7d2b01b64b2590617b-icono-de-carrito-de-compras-icono-de-carrito-de-compras.png" alt="" id="img-carrito" style="width: 30px; height: 30px; margin-right: 20px;">
                             <div id="carrito">
                                 
@@ -75,37 +82,108 @@
     </div>
     <div class="barra">
         <div class="container">
-            <div style="padding-left: 30px;" class="row">
+            <div style="padding-left: 30px; text-align: center;" class="rowed">
                 <div>
-                    <p>Mas de 200 productos <br>
+                    <p>Mas de 200 productos<br>
                     Consigue lo mejor para tu piel
                     </p>
                 </div>
                 <div>
-                    <p>Elaborados por los mejores químicos<br>
+                    <p style="padding-left: 300px; text-align: center;">Elaborados por los mejores químicos<br>
                     Maquillajes y mas cosméticos
                     </p>
                 </div>
                 <div>
-                    <p>Productos de skincare<br>
+                    <p style="margin-left: 300px; text-align: center;">Productos de skincare<br>
                     100% Natural
                     </p>
                 </div>
             </div>
         </div>
     </div>
-    <div id="lista-cafe" class="container">
-        <h1 style="padding-left: 20px;" id="encabezado" class="encabezado">Pedidos en linea</h1>
-        <div class="row">
+    <div>
+        <h1 style="padding-left: 20px; background-color: #DBD9FF;" id="encabezado" class="encabezado">Pedidos en linea</h1>
+    </div>
+    <div id="lista-cafe" class="contenedordeimg">
+        <div class="rowin">
             <div class="four columns">
                 <div class="card">
-                    <img src="https://images.ecestaticos.com/01amW5Xv0A6A7Ais7lT-qUEXFzY=/0x113:2133x1713/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F25a%2F843%2F702%2F25a843702579c0c1181fb5fd20d5a4f1.jpg"style="width: 300px; height: 400px; padding-left: 60px;">
+                    <img src="https://i.pinimg.com/originals/99/72/0a/99720aedcea279b80de3a019c6c306d2.jpg" style="width: 300px; height: 300px; padding-left: 60px;">
                     <div class="info-card">
                         <h1 style="padding-left: 150px;">Skincare</h1>
                         <p style="padding-left: 130px;">Refrescante para tu rutina</p>
-                        <img src="https://i.pinimg.com/originals/99/72/0a/99720aedcea279b80de3a019c6c306d2.jpg" style="width: 200px; height: 300px; padding-left: 100px;">
                         <p style="padding-left: 160px;" class="precio">$14,99 <samp class="u-pull-right">$15</samp></p>
                         <a style="padding-left: 140px;" href="#" 
+                        class="u-full-width button-primary button input agregar-carrito
+                        ">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="https://i.pinimg.com/550x/00/83/57/008357fc4d001c4d10ff5c9fb0ea2424.jpg" style="width: 300px; height: 300px; padding-left: 150px;">
+                    <div class="info-card">
+                        <h1 style="padding-left: 240px;">Makeup</h1>
+                        <p style="padding-left: 250px;">Luce fabulosa</p>
+                        <p style="padding-left: 260px;" class="precio">$16,99 <samp class="u-pull-right">$17</samp></p>
+                        <a style="padding-left: 240px;" href="#" 
+                        class="u-full-width button-primary button input agregar-carrito
+                        ">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/41zn7KCCckL._SL500_.jpg" style="width: 300px; height: 300px; padding-left: 150px;">
+                    <div class="info-card">
+                        <h1 style="padding-left: 250px;">Haircare</h1>
+                        <p style="padding-left: 250px;">Cuidado del cabello</p>
+                        <p style="padding-left: 280px;" class="precio">$10,99 <samp class="u-pull-right">$11</samp></p>
+                        <a style="padding-left: 260px;" href="#" 
+                        class="u-full-width button-primary button input agregar-carrito
+                        ">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="rowin">
+            <div class="four columns">
+                <div class="card">
+                    <img src="https://i.pinimg.com/originals/99/72/0a/99720aedcea279b80de3a019c6c306d2.jpg" style="width: 300px; height: 300px; padding-left: 60px;">
+                    <div class="info-card">
+                        <h1 style="padding-left: 150px;">Skincare</h1>
+                        <p style="padding-left: 130px;">Refrescante para tu rutina</p>
+                        <p style="padding-left: 160px;" class="precio">$14,99 <samp class="u-pull-right">$15</samp></p>
+                        <a style="padding-left: 140px;" href="#" 
+                        class="u-full-width button-primary button input agregar-carrito
+                        ">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="https://i.pinimg.com/550x/00/83/57/008357fc4d001c4d10ff5c9fb0ea2424.jpg" style="width: 300px; height: 300px; padding-left: 150px;">
+                    <div class="info-card">
+                        <h1 style="padding-left: 240px;">Makeup</h1>
+                        <p style="padding-left: 250px;">Luce fabulosa</p>
+                        <p style="padding-left: 260px;" class="precio">$16,99 <samp class="u-pull-right">$17</samp></p>
+                        <a style="padding-left: 240px;" href="#" 
+                        class="u-full-width button-primary button input agregar-carrito
+                        ">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="https://m.media-amazon.com/images/I/41zn7KCCckL._SL500_.jpg" style="width: 300px; height: 300px; padding-left: 150px;">
+                    <div class="info-card">
+                        <h1 style="padding-left: 250px;">Haircare</h1>
+                        <p style="padding-left: 250px;">Cuidado del cabello</p>
+                        <p style="padding-left: 280px;" class="precio">$10,99 <samp class="u-pull-right">$11</samp></p>
+                        <a style="padding-left: 260px;" href="#" 
                         class="u-full-width button-primary button input agregar-carrito
                         ">Agregar al carrito</a>
                     </div>
