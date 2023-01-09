@@ -10,43 +10,35 @@
     <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="css/custom.css">
     <script src='main.js'></script>
+    <style>
+        .contenido-hero{
+            margin-top: 100px;
+            display: flex;
+            background-color: #DBD9FF;
+        }
+
+        .text{
+            padding-left: 200px;
+        }
+    </style>
 </head>
 <body>
     <header id="header" class="header">
         <div class="container">
             <div class="row">
-                <div class="four colums">
-                    <img src="https://i.pinimg.com/564x/4e/ec/6c/4eec6c9c01ac8f102cbac89cfb3acaf5.jpg" alt="logo" style="width: 200px; height: 200px;">
+                <div class="four colums" style="padding-top: 20px; text-align: center;">
+                    <img src="https://i.pinimg.com/564x/e2/f8/9f/e2f89f0851ecf11884d69240507ed1a7.jpg" alt="logo" style="width: 300px; height: 220px;">
                 </div>
-                <div class="two columns u-pull-right">
+                <div class="two columns u-pull-right" style="text-align: right;">
                     <ul>
                         <li class="submenu">
-                            <img src="https://images.vexels.com/media/users/3/200098/isolated/preview/7ad7c76da9a0cd7d2b01b64b2590617b-icono-de-carrito-de-compras-icono-de-carrito-de-compras.png" alt="" id="img-carrito" style="width: 20px; height: 20px;">
+                            <img src="https://images.vexels.com/media/users/3/200098/isolated/preview/7ad7c76da9a0cd7d2b01b64b2590617b-icono-de-carrito-de-compras-icono-de-carrito-de-compras.png" alt="" id="img-carrito" style="width: 30px; height: 30px; margin-right: 20px;">
                             <div id="carrito">
-                                <table id="lista-carrito" class="u-full-width">
-                                    <thead>
-                                        <tr>
-                                            <th>Imagen</th>
-                                            <th>Nombre</th>
-                                            <th>Precio</th>
-                                            <th></th>
-                                        </tr>
-                                    </thead>
-                                    <tbody></tbody>
-                                </table>
-                                <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                                
+                                <a href="#" id="vaciar-carrito" class="button u-full-width" style="margin-right: 10px;">Vaciar</a>
                             </div>
                         </li>
                     </ul>
-                </div>
-                <div class="row">
-                    <div class="four columns">
-                        <ul class="navct">
-                            <li class="four columns"><a href="#">Inicio</a></li>
-                            <li class="four columns"><a href="#">Sobre</a></li>
-                            <li class="four columns"><a href="#">Contacto</a></li>
-                        </ul>
-                    </div>
                 </div>
             </div>
         </div>
@@ -56,15 +48,25 @@
             <div class="row">
                 <div class="six-colums">
                     <div class="contenido-hero">
-                        <h2>Cuidado, belleza y perfección</h2>
-                        <p>Compra ahora</p>
-                        <form action="#" id="busqueda" method="post" class="formulario">
+                            <img src="https://media.glamour.mx/photos/619057e02d97bd4c522a352a/4:3/w_2096,h_1572,c_limit/257310.jpg" style="width: 400px; height: 400px; margin-left: 30px; padding-top: 30px; padding-bottom: 30px;">
+                            <div>
+                               <p class="text">
+                                <h1 style="padding-left: 100px;">
+                                  Cuidado<br>
+                            Belleza<br>
+                            Perfección<br>  
+                                </h1>
+                        </p>
+                        <br>
+                            <p style="padding-left: 150px; padding-top: 160px;">Compra ahora</p>
+                        <form style="padding-left: 100px;" action="#" id="busqueda" method="post" class="formulario">
                             <input class="u-full-width" type="text" 
                             placeholder="Que estas buscando"
                             id="buscador"
                             >
                             <input type="submit" id="submit-buscador" class="submit-buscador">
-                        </form>
+                        </form> 
+                            </div>
                     </div>
                 </div>
             </div>
@@ -72,37 +74,37 @@
     </div>
     <div class="barra">
         <div class="container">
-            <div class="row">
-                <div class="four columns icono icono1">
+            <div style="padding-left: 30px;" class="row">
+                
                     <p>Mas de 200 productos <br>
                     Consigue lo mejor para tu piel
                     </p>
-                </div>
-                <div class="four columns icono icono2">
+                
                     <p>Elaborados por los mejores químicos<br>
                     Maquillajes y mas cosméticos
                     </p>
-                </div>
-                <div class="four columns icono icono3">
+                
                     <p>Productos de skincare<br>
                     100% Natural
                     </p>
-                </div>
+                
             </div>
         </div>
     </div>
     <div id="lista-cafe" class="container">
-        <h1 id="encabezado" class="encabezado">Pedidos en linea</h1>
+        <h1 style="padding-left: 20px;" id="encabezado" class="encabezado">Pedidos en linea</h1>
         <div class="row">
             <div class="four columns">
                 <div class="card">
-                    <img src="https://images.ecestaticos.com/01amW5Xv0A6A7Ais7lT-qUEXFzY=/0x113:2133x1713/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F25a%2F843%2F702%2F25a843702579c0c1181fb5fd20d5a4f1.jpg"style="width: 300px; height: 400px;">
+                    <img src="https://images.ecestaticos.com/01amW5Xv0A6A7Ais7lT-qUEXFzY=/0x113:2133x1713/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F25a%2F843%2F702%2F25a843702579c0c1181fb5fd20d5a4f1.jpg"style="width: 300px; height: 400px; padding-left: 60px;">
                     <div class="info-card">
-                        <h4>Skincare</h4>
-                        <p>Refrescante para tu rutina</p>
-                        <img src="https://i.pinimg.com/originals/99/72/0a/99720aedcea279b80de3a019c6c306d2.jpg" style="width: 200px; height: 300px;">
-                        <p class="precio">$15,99 <samp class="u-pull-right">$14</samp></p>
-                        <a href="#" class="u-full-width"></a>
+                        <h1 style="padding-left: 150px;">Skincare</h1>
+                        <p style="padding-left: 130px;">Refrescante para tu rutina</p>
+                        <img src="https://i.pinimg.com/originals/99/72/0a/99720aedcea279b80de3a019c6c306d2.jpg" style="width: 200px; height: 300px; padding-left: 100px;">
+                        <p style="padding-left: 160px;" class="precio">$14,99 <samp class="u-pull-right">$15</samp></p>
+                        <a style="padding-left: 140px;" href="#" 
+                        class="u-full-width button-primary button input agregar-carrito
+                        ">Agregar al carrito</a>
                     </div>
                 </div>
             </div>
