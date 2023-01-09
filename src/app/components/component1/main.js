@@ -7,6 +7,6 @@ function login(){
     if( user == "prueba" && password == "1234"){
         window.location = "component2.component.html";
     }else{
-        window.location = "Datos Incorrectos"
+        alert("Datos Incorrectos")
     }
 }
