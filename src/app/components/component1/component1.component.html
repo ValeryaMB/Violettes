@@ -5,14 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    .containerprincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #D1C5E8;
+    gap: 60px;
+    text-align: center;
+}
+    </style>
 </head>
 <body>
     <div class="containerprincipal">
         <div class="form-group">
-            <input id="usuario" type="text" class="form-control" name="usermane" placeholder="Usuario">
+            <img src="https://i.pinimg.com/564x/e2/f8/9f/e2f89f0851ecf11884d69240507ed1a7.jpg" alt="logo" style="width: 300px; height: 220px; text-align: center;">
+            <br>
+            <br>
+            <input id="usuario" type="text" class="form-control" name="usermane" placeholder="Usuario"><br>
+            <br>
             <input id="contrasena" type="password" class="form-control" name="password" placeholder="contrasena">
             <br>
-            <button id="boton">Iniciar Sesion</button>
+            <br>
+            <button id="boton" class="boton">Iniciar Sesion</button>
         </div>
     </div>
 </body>
