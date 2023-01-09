@@ -1,0 +1,21 @@
+body{
+    background-color: #DBD9FF;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+h4{
+    font-size: 16px;
+    font-weight: 700;
+}
+header{
+    padding: 20px 0 0 0;
+    text-align: center;
+}
+.navct{
+    color: white;
+    padding-top: 5px;
+    text-transform: uppercase;
+}
+@media(main)
